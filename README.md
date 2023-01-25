@@ -35,3 +35,13 @@ npm run start
 
 {"name":"John Smith"}
 ```
+
+## Add tsconfig.json
+```
+npx tsc --init
+```
+
+## Reconfigure package.json
+build  
+serve  
+start  

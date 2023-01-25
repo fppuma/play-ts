@@ -4,7 +4,9 @@
   "description": "Playground with TypeScript",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node index.ts",
+    "build": "tsc",
+    "serve": "node dist/index.js",
+    "start": "npm run serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
