@@ -1,6 +1,6 @@
 class Customer {
 
-    constructor(private name: string, age: number) {}
+  constructor(private name: string, age: number) { }
 }
 
 const john = new Customer('John Smith', 32);
