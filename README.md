@@ -24,7 +24,11 @@ Add in the **script** section
 ```js
 "start": "ts-node index.ts"
 ```
-
+## Run the example
+```
+npm run start
+```
+### Output
 ```
 > play-ts@1.0.0 start
 > ts-node index.ts
